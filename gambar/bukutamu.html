@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            text-decoration:none;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            background: #150050;
+            color: #fff;
+            position: absolute;
+            bottom: 0px;
+        }
+      /* script menghilangkan Horizontal Scroll */
+      html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+      }
+    </style>
+</head>
+<body style="background-color :#B9E0FF">
+    <center>
+        <div style="background-color:#150050"><h1 style="color:azure">WEBSITE KU</h1></div>
+            <div style="background-color:#150050">	
+                <ul style="color:azure">	
+                    <a href="home.html" style="color:azure">Beranda</a> | 
+                    <a href="profil.html" style="color:azure">Profil</a> |
+                    <a href="artikel.html" style="color:azure">Artikel</a> |
+                    <a href="bukutamu.html" style="color:azure">Buku Tamu</a>
+                </ul>
+            </div>	
+    </center>
+    <form>
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Nama Lengkap: </label> <br>
+                <input type="text" name="nama_lengkap" value="" placeholder="tulis namamu"><br> <br>
+            </ul>
+        </div>
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Jenis Kelamin: </label><br>
+                <input type="radio" name="jenis_kelamin" value="L">laki-laki
+                <input type="radio" name="jenis_kelamin" value="P">Perempuan<br><br>
+            </ul>
+        </div>
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Alamat Tinggal :</label><br>
+                <textarea name="alamat" rows="2" cols="50" placeholder="Tulis alamatmu"></textarea><br><br>
+            </ul>
+        </div>
+
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Email :</label><br>
+                <input type="text" name="email" ><br><br>
+            </ul>
+        </div>
+
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Aktif Sosial Media apa aja</label><br>
+                <input type="checkbox" name="Facebook" value="">Facebook
+                <input type="checkbox" name="Twitter" value="">Twitter
+                <input type="checkbox" name="Instagram" value="">Instagram
+                <input type="checkbox" name="Telegram" value="">Telegram
+                <input type="checkbox" name="Path" value="">Path<br><br>
+            </ul>
+        </div>
+
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Mengetahui web ini dari:</label>
+                <select name="-= pilih =-">
+                    <option selected disabled>-Pilih pekerjaan-</option>
+                    <option value="Web Udinus">Web Udinus</option>
+                    <option  value="teman/keluarga">teman/keluarga</option>
+                    <option value="Internet">Internet</option>
+                </select><br><br>
+            </ul>
+        </div>
+
+
+        <div style="background-color :#8D9EFF">
+            <ul style="color:azure">
+                <label>Kritik dan Saran :</label><br>
+                <textarea name="alamat" rows="5" cols="100" placeholder="Kritik dan saran tentang tampilan web saya"></textarea><br><br>
+            </ul>
+        </div>
+    </form>
+
+    <footer class="footer" style="font-family: 'Libre Franklin', sans-serif" >
+        <p align="center">Copyright @ 2022</p>
+      </footer>
+</body>
+</html>
